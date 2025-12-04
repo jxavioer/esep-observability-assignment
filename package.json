@@ -1,0 +1,27 @@
+{
+  "name": "esep-observability-assignment",
+  "version": "1.0.0",
+  "description": "CIS 4930 Assignment 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxavioer/esep-observability-assignment.git"
+  },
+  "author": "Jonathan Xavioer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jxavioer/esep-observability-assignment/issues"
+  },
+  "homepage": "https://github.com/jxavioer/esep-observability-assignment#readme",
+  "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.67.2",
+    "@opentelemetry/resources": "^2.2.0",
+    "@opentelemetry/sdk-node": "^0.208.0",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "opentelemetry-instrumentation-express": "^0.41.0"
+  }
+}
